@@ -17,7 +17,7 @@ ui <- fluidPage(
         sidebarPanel( 
             textInput('Temperature', 'Assay Temperature (C)', "25"),
             textInput('Rep', 'Replicate', "1"),
-            textInput('S', 'Substrate conecentrations (Copied as column)', "0 0.01 0.02 0.05 0.1 0.3 0.5 1 2"),
+            textInput('S', 'Substrate concentrations (Copied as column)', "0 0.01 0.02 0.05 0.1 0.3 0.5 1 2"),
             textInput('v', 'Reaction rates (Copied as column)', "0 10.97 21.29 44.09 71.83 95.27 96.13 98.92 109.25"),
             textInput('Vmax_Start', 'Starting value for Vmax', "90"),
             textInput('Km_Start', 'Starting value for Km', "0.25"),
