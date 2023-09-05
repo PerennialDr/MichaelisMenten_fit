@@ -1,7 +1,7 @@
 # MichaelisMenten_fit
 This repository holds the code for a R ShinyApp to fit non-linear models to the Michaelis-Menten equation (u ~ Vmax*S/(Km + S)). Where, u represents the reaction rate, Vmax is the maximum velocity of the reaction, Km is the Michaelis constant, and S is the substrate concentration. It outputs, model parameters and standard errors of the estimation.
 
-For working properly, the Rstudio must be installed, along with the 'shiny', 'ggplot2' and 'dplyr' packages. If new to R, remove the '#' at the beginning for each line and run the first 3 lines of code. 
+For working properly, Rstudio must be installed, along with the 'shiny', 'ggplot2' and 'dplyr' packages. If new to R, remove the '#' at the beginning for each line and run the first 3 lines of code. 
 
 On the left side panel, the user has six fields to enter information.
 'Assay Temperature (C)' and 'Replicate' are optional, they do not interfere with the analysis. Both provide extra information of the particular assay. They can be left blank or as NA. 
